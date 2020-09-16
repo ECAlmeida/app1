@@ -18,10 +18,11 @@ export class PainelComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  atualizaResposta(resposta: Event): void {
+  public atualizaResposta(resposta: Event): void {
     this.resposta = ((<HTMLInputElement>resposta.target).value)
     console.log(this.resposta)
   }
+
 
 }
   
