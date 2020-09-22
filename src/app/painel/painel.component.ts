@@ -30,7 +30,7 @@ export class PainelComponent implements OnInit, OnDestroy {
   ngOnInit() {
   }
   ngOnDestroy(){
-    console.log("Componente destruido")
+    //console.log("Componente destruido")
 
   }
 
@@ -51,7 +51,7 @@ export class PainelComponent implements OnInit, OnDestroy {
       this.atualizaRodada()
      // this.rodadaFrase = this.frases[this.rodada] funcao atualizaRodada
 
-      console.log(this.resposta)
+     // console.log(this.resposta)
 
       
       
