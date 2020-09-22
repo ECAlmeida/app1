@@ -1,4 +1,4 @@
-import { Frase } from '../../../../shared/frase.model'
+import { Frase } from '../../../shared/frase.model'
 //import {Frase} from '../shared/frase.model'
 
 export const FRASES: Frase[] = [

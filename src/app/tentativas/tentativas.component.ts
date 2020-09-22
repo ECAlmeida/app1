@@ -1,6 +1,6 @@
 import { Component, Input, OnInit, OnChanges  } from '@angular/core';
 
-import {Coracao} from '../../../../shared/coracao.model'
+import {Coracao} from '../../../shared/coracao.model'
 
 @Component({
   selector: 'app-tentativas',

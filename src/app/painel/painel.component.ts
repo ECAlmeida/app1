@@ -1,6 +1,6 @@
 import { Component, OnInit, EventEmitter, Output, OnDestroy } from '@angular/core';
 import { EventManager } from '@angular/platform-browser';
-import { Frase } from '../../../../shared/frase.model';
+import { Frase } from '../../../shared/frase.model';
 //import { Frase } from '../shared/frase.model'
 import { FRASES } from './frases-mock'
 
